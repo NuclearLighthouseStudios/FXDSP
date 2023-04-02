@@ -1,0 +1,15 @@
+gerbers/
+*-backups/
+CubeMX/*
+jlcpcb/
+!CubeMX/*.ioc
+*.kicad_prl
+*-bak
+*.bak
+*-cache
+*.zip
+*.pdf
+*.step
+*.xml
+*.csv
+*.png
