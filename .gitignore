@@ -1,7 +1,6 @@
-gerbers/
 *-backups/
-CubeMX/*
 jlcpcb/
+CubeMX/*
 !CubeMX/*.ioc
 *.kicad_prl
 *-bak
