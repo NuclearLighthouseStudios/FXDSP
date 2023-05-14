@@ -4,6 +4,14 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Whatever DSP")
+    (date "2023-05-14")
+    (rev "${REVISION}")
+    (company "Nuclear Lighthouse Studios")
+    (comment 1 "${LICENSE}")
+  )
+
   (lib_symbols
     (symbol "Connector:Conn_ARM_JTAG_SWD_10" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at -2.54 16.51 0)
@@ -3108,6 +3116,35 @@
     )
   )
 
+  (symbol (lib_id "Device:C") (at 128.27 48.26 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 36720ea6-c2c5-4d9a-8be1-812f3a0f8701)
+    (property "Reference" "C35" (at 128.27 41.91 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "100n" (at 128.27 44.45 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 124.46 49.2252 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 128.27 48.26 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid ffeb0289-dcef-42f8-bb60-ab88038048d4))
+    (pin "2" (uuid 7b159df7-b7b6-4f5d-8bd0-8dd61c47d4a4))
+    (instances
+      (project "FXDSP"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+          (reference "C35") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/54e2d0aa-21e2-4e7a-91a5-58f6e6fcfb6d"
+          (reference "C211") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:C") (at 112.395 178.435 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3a66fafa-a409-4ec7-8e13-8e6263bd22b5)
@@ -4394,35 +4431,6 @@
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/54e2d0aa-21e2-4e7a-91a5-58f6e6fcfb6d"
           (reference "#PWR0210") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 128.27 48.26 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid f0173741-30c2-48db-9ab4-5bce209e68b5)
-    (property "Reference" "R4" (at 128.27 43.0022 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "1k" (at 128.27 45.3136 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 128.27 46.482 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 128.27 48.26 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 546a464e-e0f3-43b4-976c-28b74853a647))
-    (pin "2" (uuid 8737ce81-d536-4201-bd41-e511c3c72361))
-    (instances
-      (project "FXDSP"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "R4") (unit 1)
-        )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/54e2d0aa-21e2-4e7a-91a5-58f6e6fcfb6d"
-          (reference "R204") (unit 1)
         )
       )
     )
