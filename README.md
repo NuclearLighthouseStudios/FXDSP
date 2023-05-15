@@ -12,7 +12,7 @@ For more information about WhateverDSP, [please see the WhateverDSP repository](
 
 ## Example code
 
-Here is what that a simple volume control that scales the audio level using a potentiometer looks like:
+Here is a full example showing a simple volume control that scales the audio level using a potentiometer:
 
 ```c
 #include <libwdsp.h>
@@ -33,7 +33,7 @@ void wdsp_process(float *in_buffer[BLOCK_SIZE], float *out_buffer[BLOCK_SIZE])
 
 ```
 
-Check out the [examples repository](https://github.com/NuclearLighthouseStudios/WhateverDSP-Examples) for more, or [come chat with us on Discord or IRC](https://github.com/NuclearLighthouseStudios/FXDSP#chat).
+Check out the [examples repository](https://github.com/NuclearLighthouseStudios/WhateverDSP-Examples) for more, or [come chat with us on Discord](https://github.com/NuclearLighthouseStudios/FXDSP#chat).
 
 ## Chat
 
