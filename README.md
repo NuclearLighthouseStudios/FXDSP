@@ -38,4 +38,4 @@ Check out the [examples repository](https://github.com/NuclearLighthouseStudios/
 - Discord: [Join link](https://discord.gg/UFeqgzfaba) 
 - IRC: irc.libera.chat `#wdsp`
 
-For more information and examples, please see the [WhateverDSP repository](https://github.com/NuclearLighthouseStudios/WhateverDSP).
+For more information, please see the [WhateverDSP repository](https://github.com/NuclearLighthouseStudios/WhateverDSP).
