@@ -35,7 +35,6 @@ Check out the [examples repository](https://github.com/NuclearLighthouseStudios/
 
 ## Chat
 
-- Discord: [Join link](https://discord.gg/UFeqgzfaba) 
-- IRC: irc.libera.chat `#wdsp`
+[You can chat with us on Discord.](https://discord.gg/WDsFnartXb)
 
 For more information, please see the [WhateverDSP repository](https://github.com/NuclearLighthouseStudios/WhateverDSP).
