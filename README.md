@@ -8,6 +8,8 @@ It's based around an STM32F405 microcontroller and runs on the [WhateverDSP fram
 
 FXDSP has interchangeable user interface PCBs so it can easily be tailored to the needs of each effect produced on the platform.
 
+For more information about WhateverDSP, [please see the WhateverDSP repository](https://github.com/NuclearLighthouseStudios/WhateverDSP).
+
 ## Example code
 
 Here is what that a simple volume control that scales the audio level using a potentiometer looks like:
@@ -37,4 +39,6 @@ Check out the [examples repository](https://github.com/NuclearLighthouseStudios/
 
 [You can chat with us on Discord.](https://discord.gg/WDsFnartXb)
 
-For more information, please see the [WhateverDSP repository](https://github.com/NuclearLighthouseStudios/WhateverDSP).
+## License
+
+FXDSP and the WhateverDSP library are licensed under GNU Lesser General Public License.
