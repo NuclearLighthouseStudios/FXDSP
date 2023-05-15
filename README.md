@@ -41,4 +41,7 @@ Check out the [examples repository](https://github.com/NuclearLighthouseStudios/
 
 ## License
 
-FXDSP and the WhateverDSP library are licensed under GNU Lesser General Public License.
+FXDSP hardware is licensed under CC BY NC SA.
+
+The WhateverDSP library is licensed under GNU Lesser General Public License.
+
