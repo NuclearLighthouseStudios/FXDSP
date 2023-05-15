@@ -8,4 +8,34 @@ It's based around an STM32F405 microcontroller and runs on the [WhateverDSP fram
 
 FXDSP has interchangeable user interface PCBs so it can easily be tailored to the needs of each effect produced on the platform.
 
+## Example code
+
+Here is what that a simple volume control that scales the audio level using a potentiometer looks like:
+
+```c
+#include <libwdsp.h>
+
+void wdsp_process(float *in_buffer[BLOCK_SIZE], float *out_buffer[BLOCK_SIZE])
+{
+	float volume = io_analog_in(POT_1);
+
+	for (int i = 0; i < BLOCK_SIZE; i++)
+	{
+		float l_sample = in_buffer[0][i];
+		float r_sample = in_buffer[1][i];
+
+		out_buffer[0][i] = l_sample * volume;
+		out_buffer[1][i] = r_sample * volume;
+	}
+}
+
+```
+
+Check out the [examples repository](https://github.com/NuclearLighthouseStudios/WhateverDSP-Examples) for more, or [come chat with us on Discord or IRC](https://github.com/NuclearLighthouseStudios/FXDSP#chat).
+
+## Chat
+
+- Discord: [Join link](https://discord.gg/UFeqgzfaba) 
+- IRC: irc.libera.chat `#wdsp`
+
 For more information and examples, please see the [WhateverDSP repository](https://github.com/NuclearLighthouseStudios/WhateverDSP).
